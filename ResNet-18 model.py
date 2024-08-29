@@ -42,7 +42,7 @@ transform = transforms.Compose([
 ])
 
 # Load dataset
-img_dir = r'C:\Users\MADD\Desktop\MatPrint\form_en_values'
+img_dir = r'./form_en_values' #Please read the README file to correctly use the dataset
 dataset = ImageRegressionDataset(img_dir, transform=transform)
 
 # Split dataset into training (80%) and testing (20%)
